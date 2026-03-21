@@ -1,0 +1,379 @@
+{
+  "coach": {
+    "id": "coach_003",
+    "name": "Coach Hunejin",
+    "branch": "Erod"
+  },
+  "clients": [
+    {
+      "id": "client_037",
+      "name": "Jensine",
+      "qr_code": "QR_037",
+      "package_type": "Staggered 24",
+      "remaining_balance": 42,
+      "starting_balance": 24,
+      "coach": "Coach Hunejin",
+      "branch": "Erod",
+      "payment_status": "Renewed 48 Feb 17 +2 free",
+      "is_inactive": false,
+      "sessions_count": 7,
+      "sessions": [
+        {
+          "id": "s_jen1",
+          "type": "Cardio",
+          "date": "2024-03-02"
+        },
+        {
+          "id": "s_jen2",
+          "type": "Weights",
+          "date": "2024-03-03"
+        },
+        {
+          "id": "s_jen3",
+          "type": "Pilates",
+          "date": "2024-03-05"
+        },
+        {
+          "id": "s_jen4",
+          "type": "Cardio",
+          "date": "2024-03-06"
+        },
+        {
+          "id": "s_jen5",
+          "type": "Weights",
+          "date": "2024-03-10"
+        },
+        {
+          "id": "s_jen6",
+          "type": "Pilates",
+          "date": "2024-03-12"
+        },
+        {
+          "id": "s_jen7",
+          "type": "Cardio",
+          "date": "2024-03-19"
+        }
+      ]
+    },
+    {
+      "id": "client_038",
+      "name": "Pat",
+      "qr_code": "QR_038",
+      "package_type": "Staggered 24",
+      "remaining_balance": 2,
+      "starting_balance": 24,
+      "coach": "Coach Hunejin",
+      "branch": "Erod",
+      "payment_status": "busy",
+      "is_inactive": false,
+      "sessions_count": 4,
+      "sessions": [
+        {
+          "id": "s_pat1",
+          "type": "Weights",
+          "date": "2024-03-11"
+        },
+        {
+          "id": "s_pat2",
+          "type": "Cardio",
+          "date": "2024-03-12"
+        },
+        {
+          "id": "s_pat3",
+          "type": "Pilates",
+          "date": "2024-03-17"
+        },
+        {
+          "id": "s_pat4",
+          "type": "Weights",
+          "date": "2024-03-19"
+        }
+      ]
+    },
+    {
+      "id": "client_039",
+      "name": "Dulce",
+      "qr_code": "QR_039",
+      "package_type": "Staggered 24",
+      "remaining_balance": 21,
+      "starting_balance": 24,
+      "coach": "Coach Hunejin",
+      "branch": "Erod",
+      "payment_status": "24 partial renewed Feb 18",
+      "is_inactive": false,
+      "sessions_count": 4,
+      "sessions": [
+        {
+          "id": "s_dul1",
+          "type": "Cardio",
+          "date": "2024-03-04"
+        },
+        {
+          "id": "s_dul2",
+          "type": "Weights",
+          "date": "2024-03-07"
+        },
+        {
+          "id": "s_dul3",
+          "type": "Pilates",
+          "date": "2024-03-11"
+        },
+        {
+          "id": "s_dul4",
+          "type": "Cardio",
+          "date": "2024-03-18"
+        }
+      ]
+    },
+    {
+      "id": "client_040",
+      "name": "Bea",
+      "qr_code": "QR_040",
+      "package_type": "Staggered 24",
+      "remaining_balance": 17,
+      "starting_balance": 24,
+      "coach": "Coach Hunejin",
+      "branch": "Erod",
+      "payment_status": "7 sessions left",
+      "is_inactive": false,
+      "sessions_count": 1,
+      "sessions": [
+        {
+          "id": "s_bea1",
+          "type": "Weights",
+          "date": "2024-03-06"
+        }
+      ]
+    },
+    {
+      "id": "client_041",
+      "name": "Steph",
+      "qr_code": "QR_041",
+      "package_type": "Staggered 24",
+      "remaining_balance": 8,
+      "starting_balance": 24,
+      "coach": "Coach Hunejin",
+      "branch": "Erod",
+      "payment_status": "5 free sessions",
+      "is_inactive": false,
+      "sessions_count": 2,
+      "sessions": [
+        {
+          "id": "s_steph1",
+          "type": "Cardio",
+          "date": "2024-03-02"
+        },
+        {
+          "id": "s_steph2",
+          "type": "Weights",
+          "date": "2024-03-09"
+        }
+      ]
+    },
+    {
+      "id": "client_042",
+      "name": "Dianne",
+      "qr_code": "QR_042",
+      "package_type": "Staggered 24",
+      "remaining_balance": 3,
+      "starting_balance": 24,
+      "coach": "Coach Hunejin",
+      "branch": "Erod",
+      "payment_status": "3 left +2 free",
+      "is_inactive": false,
+      "sessions_count": 1,
+      "sessions": [
+        {
+          "id": "s_di_h1",
+          "type": "Pilates",
+          "date": "2024-03-18"
+        }
+      ]
+    },
+    {
+      "id": "client_043",
+      "name": "Bel",
+      "qr_code": "QR_043",
+      "package_type": "Staggered 24",
+      "remaining_balance": 0,
+      "starting_balance": 24,
+      "coach": "Coach Hunejin",
+      "branch": "Erod",
+      "payment_status": "Done",
+      "is_inactive": true,
+      "sessions_count": 0,
+      "sessions": []
+    },
+    {
+      "id": "client_044",
+      "name": "Julie",
+      "qr_code": "QR_044",
+      "package_type": "Staggered 24",
+      "remaining_balance": 0,
+      "starting_balance": 24,
+      "coach": "Coach Hunejin",
+      "branch": "Erod",
+      "payment_status": "Done, will renew",
+      "is_inactive": true,
+      "sessions_count": 0,
+      "sessions": []
+    },
+    {
+      "id": "client_045",
+      "name": "Doc Sherwin",
+      "qr_code": "QR_045",
+      "package_type": "Full 24",
+      "remaining_balance": 29,
+      "starting_balance": 24,
+      "coach": "Coach Hunejin",
+      "branch": "Erod",
+      "payment_status": "+21 from Doc Cheche",
+      "is_inactive": false,
+      "sessions_count": 0,
+      "sessions": []
+    },
+    {
+      "id": "client_046",
+      "name": "Gloria Ocampo",
+      "qr_code": "QR_046",
+      "package_type": "Full 24",
+      "remaining_balance": 17,
+      "coach": "Coach Hunejin",
+      "branch": "Erod",
+      "payment_status": "2nd payment 2/21",
+      "is_inactive": false,
+      "sessions_count": 0,
+      "sessions": []
+    },
+    {
+      "id": "client_047",
+      "name": "Victor Domingo",
+      "qr_code": "QR_047",
+      "package_type": "Full 24",
+      "remaining_balance": 11,
+      "coach": "Coach Hunejin",
+      "branch": "Erod",
+      "payment_status": "+2 free",
+      "is_inactive": false,
+      "sessions_count": 4,
+      "sessions": [
+        {
+          "id": "s_vd1",
+          "type": "Cardio",
+          "date": "2024-03-03"
+        },
+        {
+          "id": "s_vd2",
+          "type": "Weights",
+          "date": "2024-03-05"
+        },
+        {
+          "id": "s_vd3",
+          "type": "Pilates",
+          "date": "2024-03-12"
+        },
+        {
+          "id": "s_vd4",
+          "type": "Cardio",
+          "date": "2024-03-17"
+        }
+      ]
+    },
+    {
+      "id": "client_048",
+      "name": "Lexi Bartolome",
+      "qr_code": "QR_048",
+      "package_type": "Full 24",
+      "remaining_balance": 15,
+      "coach": "Coach Hunejin",
+      "branch": "Erod",
+      "payment_status": "Full 24",
+      "is_inactive": false,
+      "sessions_count": 2,
+      "sessions": [
+        {
+          "id": "s_lex1",
+          "type": "Weights",
+          "date": "2024-03-10"
+        },
+        {
+          "id": "s_lex2",
+          "type": "Cardio",
+          "date": "2024-03-11"
+        }
+      ]
+    },
+    {
+      "id": "client_049",
+      "name": "Starsky",
+      "qr_code": "QR_049",
+      "package_type": "Full 24",
+      "remaining_balance": 6,
+      "coach": "Coach Hunejin",
+      "branch": "Erod",
+      "payment_status": "+5 free",
+      "is_inactive": false,
+      "sessions_count": 3,
+      "sessions": [
+        {
+          "id": "s_star1",
+          "type": "Pilates",
+          "date": "2024-03-03"
+        },
+        {
+          "id": "s_star2",
+          "type": "Cardio",
+          "date": "2024-03-09"
+        },
+        {
+          "id": "s_star3",
+          "type": "Weights",
+          "date": "2024-03-11"
+        }
+      ]
+    },
+    {
+      "id": "client_050",
+      "name": "Christine",
+      "qr_code": "QR_050",
+      "package_type": "Staggered 24",
+      "remaining_balance": 22,
+      "starting_balance": 24,
+      "coach": "Coach Hunejin",
+      "branch": "Erod",
+      "payment_status": "24 stag, 2/25 first payment",
+      "is_inactive": false,
+      "sessions_count": 3,
+      "sessions": [
+        {
+          "id": "s_chr1",
+          "type": "Cardio",
+          "date": "2024-03-04"
+        },
+        {
+          "id": "s_chr2",
+          "type": "Weights",
+          "date": "2024-03-07"
+        },
+        {
+          "id": "s_chr3",
+          "type": "Pilates",
+          "date": "2024-03-11"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_clients": 14,
+    "active_clients": 12,
+    "total_sessions": 31,
+    "sessions_by_type": {
+      "Cardio": 11,
+      "Weights": 11,
+      "Pilates": 9
+    },
+    "sessions_today": 0,
+    "sessions_this_week": 0,
+    "total_remaining_balance": 192
+  }
+}
