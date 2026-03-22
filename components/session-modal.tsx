@@ -6,6 +6,7 @@ import { useClients } from '@/context/client-context';
 import { Dumbbell, HeartPulse, Flower2, X } from 'lucide-react';
 
 interface SessionModalProps {
+  isOpen: boolean;
   client: Client;
   onClose: () => void;
 }
@@ -16,16 +17,37 @@ const SESSION_OPTIONS: Array<{
   icon: typeof Dumbbell;
   description: string;
 }> = [
-  { value: 'Weights', label: 'Weights', icon: Dumbbell, description: 'Strength or resistance training' },
-  { value: 'Cardio', label: 'Cardio', icon: HeartPulse, description: 'Cardio-focused workout' },
-  { value: 'Pilates', label: 'Pilates', icon: Flower2, description: 'Pilates session' },
+  {
+    value: 'Weights',
+    label: 'Weights',
+    icon: Dumbbell,
+    description: 'Strength or resistance training',
+  },
+  {
+    value: 'Cardio',
+    label: 'Cardio',
+    icon: HeartPulse,
+    description: 'Cardio-focused workout',
+  },
+  {
+    value: 'Pilates',
+    label: 'Pilates',
+    icon: Flower2,
+    description: 'Pilates session',
+  },
 ];
 
-export default function SessionModal({ client, onClose }: SessionModalProps) {
+export default function SessionModal({
+  isOpen,
+  client,
+  onClose,
+}: SessionModalProps) {
   const { deductSession } = useClients();
   const [sessionType, setSessionType] = useState<SessionRecord['type']>('Weights');
 
-  const isBlocked = client.isInactive || client.remainingBalance <= 0;
+  if (!isOpen) return null;
+
+  const isBlocked = !!client.isInactive || client.remainingBalance <= 0;
 
   const handleSave = () => {
     if (isBlocked) return;
@@ -79,7 +101,11 @@ export default function SessionModal({ client, onClose }: SessionModalProps) {
                 }`}
               >
                 <div className="flex items-start gap-3">
-                  <div className={`rounded-lg p-2 ${active ? 'bg-blue-600 text-white' : 'bg-slate-700 text-slate-200'}`}>
+                  <div
+                    className={`rounded-lg p-2 ${
+                      active ? 'bg-blue-600 text-white' : 'bg-slate-700 text-slate-200'
+                    }`}
+                  >
                     <Icon className="h-5 w-5" />
                   </div>
                   <div>
